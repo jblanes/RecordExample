@@ -37,7 +37,8 @@ namespace BC.RecordUseExample.UI.Razor.Pages
                     return Page();
                 }
 
-                // ejecutar el comando, en este ejemplo con un simple servicio local que llama a la DB, pero el comando podría ser enviado a un API, Bus, etc para su procesamiento,
+                // Ejecutar el comando, en este ejemplo con un simple servicio local que llama a la DB, pero el comando podría ser enviado a un API, Bus, etc para su procesamiento.
+                // También se puede usar una librería como MediatR para ejecución de comandos
                 // Nota: los comandos están en el proyecto de Domain, ya que pueden ser enviados o recibidos por cualquier proyecto (Infraestructura, Apps, API's, etc)
                 await _employeeService.TryCreateAndSaveEmployeeAsync(createEmployeeCmd);
 
