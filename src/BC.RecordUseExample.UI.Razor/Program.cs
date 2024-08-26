@@ -1,4 +1,5 @@
 using BC.RecordUseExample.Backend.Infrastructure;
+using BC.RecordUseExample.Backend.Infrastructure.Setup;
 using BC.RecordUseExample.UI.Razor.Services;
 using Microsoft.EntityFrameworkCore;
 

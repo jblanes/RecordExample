@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics;
 
-namespace BC.RecordUseExample.Backend.Infrastructure
+namespace BC.RecordUseExample.Backend.Infrastructure.Setup
 {
     public static class Startup
     {
