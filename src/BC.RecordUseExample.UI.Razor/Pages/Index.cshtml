@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Employee page";
+}
+ 
+
+<h3>Entrar información del empleado</h3>
+
+<h6>Como ejemplo, tratar de entrar valores incorrectos como fechas futuras o salarios negativos</h6>
+
+<form method="post" asp-antiforgery="true">
+    <input type="hidden" asp-for="EmployeeData.Id" />
+    <div>
+        <label>Fecha de Nacimiento (mm/dd/yyyy)</label>
+        <input type="date" asp-for="EmployeeData.BirthDate" />
+        <span asp-validation-for="@Model.EmployeeData.BirthDate"></span>
+    </div>
+    <br />
+    <div>
+        <label>Salario Base ($)</label>
+        <input type="text" asp-for="EmployeeData.Salary" />
+        <span asp-validation-for="@Model.EmployeeData.Salary"></span>
+    </div>
+    <br />
+    
+    <button type="submit">Añadir Empleado</button>
+</form>
