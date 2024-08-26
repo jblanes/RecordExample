@@ -1,1 +1,1 @@
-# BC.RecordUseExample.Solution
+Ver los comentarios en la pantalla principal /Pages/Index
