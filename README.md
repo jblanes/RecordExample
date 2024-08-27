@@ -6,7 +6,7 @@ El ejemplo es solo para campos que necesitan validaciones especiales. <br/>
 
 En este ejemplo se validan dos campos, Fecha de nacimiento y Salario:<br/>
 El primero no debe permitir edades mayores a 125 ni fechas futuras.<br/>
-El segundo, aunque es un ejemplo de validación de rango, también sirve para documentar cómo proteger un campo con un valor dentro de un rango específico. En este caso del salario, de 0 a $1 millón.<br/>
+El segundo, aunque es un ejemplo de validación de rango, también sirve para documentar cómo proteger un campo con un valor generado dentro de un rango específico. En este caso del salario, de 0 a $1 millón.<br/>
 
 Las validaciones se hacen con clases sencillas a modo de ejemplo. Para producción es mejor usar librerías como FluentValidation, especialmente si se usa con librearías para manejo de mensajes como MediatR.
 
