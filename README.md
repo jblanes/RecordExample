@@ -1,5 +1,5 @@
 Este es un proyecto de ejemplo!<br/>
-Varias partes importantes de un proyecto de producción han sido eliminadas para poder presentar más claramente las ideas principales.<br/>
+Varios módulos importantes existentes en un proyecto de producción (testing, logging, monitoring, APIs, etc) han sido eliminados para poder presentar más claramente las ideas principales.<br/>
 
 Validaciones sencillas de campos requeridos o no, rangos, etc. no se cubren en este ejemplo.<br/>
 El ejemplo es solo para campos que necesitan validaciones especiales. <br/>
