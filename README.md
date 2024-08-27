@@ -1,7 +1,7 @@
 Este es un proyecto de ejemplo!<br/>
 Varios módulos importantes existentes en un proyecto de producción (testing, logging, monitoring, APIs, etc) han sido eliminados para poder presentar más claramente las ideas principales.<br/>
 
-Validaciones sencillas de campos requeridos o no, rangos, etc. no se cubren en este ejemplo.<br/>
+Validaciones sencillas de campos como existencia de valor, etc. no se cubren en este ejemplo.<br/>
 El ejemplo es solo para campos que necesitan validaciones especiales. <br/>
 
 En este ejemplo se validan dos campos, Fecha de nacimiento y Salario:<br/>
