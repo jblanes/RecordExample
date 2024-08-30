@@ -12,5 +12,7 @@ Las validaciones se hacen con clases sencillas a modo de ejemplo. Para producci�
 
 Por decisión de diseño, el comando no lanza excepciones cuando se genera con errores, sino que marca los campos incorrectos. Por un lado, esto agiliza el proceso de presentación de mensajes de error al usuario, pero por otro lado, debe prestarse especial atención a que un comando inválido nunca entre al sistema para su ejecución.
 
+Para una versión más evolucionada de estos conceptos y más parecida a lo usado en producción, favor de ver [RecordExample_2](https://github.com/jblanes/recordexample_2)
+
 Para comenzar el análisis, favor comenzar viendo los comentarios en la pantalla principal /Pages/Index
 en el proyecto BC.RecordUseExample.UI.Razor
